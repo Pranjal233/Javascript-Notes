@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <!-- <input type="file" name=" " id=" " capture="environment" /> -->
+    <p id="demo"></p>
+
+     <h6 id="demo1">Welcome</h6>
+    <section id="first">
+        <h1>hello coders</h1>
+    </section>
+</body>
+<script>
+
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+    
+    //single property value:
+    document.getElementById("demo1").style.color="blue";
+    document.getElementById("demo1").style.background="lightblue";
+
+    //to apply multiple properties in one line
+    document.getElementById("first").setAttribute(
+   "style", "font-size: 50px; font-style: italic; color:red;background:green");
+
+    </script>
+</html>
